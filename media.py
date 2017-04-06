@@ -1,10 +1,11 @@
 import webbrowser
 
+
 class Movie():
     """
     This is a class that holds a movie object with the attributes of a movie
     """
-        
+
     # Constructor
     def __init__(self, movie_title, movie_storyline, movie_poster_image_url,
                  movie_trailer_youtube_url, movie_year):
